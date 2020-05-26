@@ -6,6 +6,7 @@ module.exports = {
   siteMetadata: {
     siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
   },
+  pathPrefix: "/LeetArts",
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
