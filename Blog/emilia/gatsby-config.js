@@ -10,7 +10,17 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `Lee Tian`,
+        location: `Seattle`,
+        showThemeAuthor: `false`,
+        socialMedia: [
+          {
+            title: `Linkedin`,
+            href: `https://www.linkedin.com/in/le-tian/`
+          }
+        ]
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
