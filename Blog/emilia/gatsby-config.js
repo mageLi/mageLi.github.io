@@ -13,7 +13,6 @@ module.exports = {
       options: {
         name: `Lee Tian`,
         location: `Seattle`,
-        showThemeAuthor: `false`,
         socialMedia: [
           {
             title: `Linkedin`,
