@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Lee Tian`,
   },
   plugins: [
     {
@@ -13,11 +13,12 @@ module.exports = {
       options: {
         name: `Lee Tian`,
         location: `Seattle`,
+        showThemeAuthor: false,
         socialMedia: [
-          {
-            title: `Linkedin`,
-            href: `https://www.linkedin.com/in/le-tian/`
-          }
+          // {
+          //   title: `Linkedin`,
+          //   href: `https://www.linkedin.com/in/le-tian/`
+          // }
         ]
       },
     },
